@@ -26,7 +26,7 @@ client.on('message',async message => {
       })
       .then(collected => {
         collected.first().delete();
-        id = collected.first().content;
+        botname = collected.first().content;
         let id;
         msg.edit(':scroll: **| من فضلك اكتب اي دي بوتك الأن... :pencil2: **').then(msg => {
   
@@ -60,7 +60,6 @@ client.on('message',async message => {
         msg.edit(`:scroll: **| من فضلك اكتب المكتبة واللغة التي يستخدمها بوتك الأن :pencil2:
 مثال :**
 \`المكتبة | اللغة\`
-
 \`JS | discord.js\`
 \`JS | eris\`
 \`PY | discord.py\``).then(msg => {
