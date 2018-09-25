@@ -43,7 +43,7 @@ client.on('message',async message => {
 
 
               let prefix;
-        msg.edit(`:scroll: **| من فضلك اكتب بريفكس بوتك الأن :pencil2:`).then(msg => {
+        msg.edit(`:scroll: **| من فضلك اكتب بريفكس بوتك الأن :pencil2:**`).then(msg => {
   
             message.channel.awaitMessages(filter, {
               max: 1,
@@ -89,7 +89,7 @@ client.on('message',async message => {
 
 
               let website;
-        msg.edit(`:scroll: **| من فضلك اكتب موقع بوتك الأن اذا لم يوجد اكتب \`لا يوجد\` :pencil2:`).then(msg => {
+        msg.edit(`:scroll: **| من فضلك اكتب موقع بوتك الأن اذا لم يوجد اكتب \`لا يوجد\`** :pencil2:`).then(msg => {
   
             message.channel.awaitMessages(filter, {
               max: 1,
@@ -117,7 +117,7 @@ client.on('message',async message => {
 
 
                 let longdesc;
-        msg.edit(`:scroll: **| من فضلك اكتب مواصفات ومميزات بوتك الأن :pencil2:`).then(msg => {
+        msg.edit(`:scroll: **| من فضلك اكتب مواصفات ومميزات بوتك الأن :pencil2:**`).then(msg => {
   
             message.channel.awaitMessages(filter, {
               max: 1,
