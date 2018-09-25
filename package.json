@@ -1,0 +1,15 @@
+{
+  "name": "abayro",
+  "version": "0.1.2",
+  "description": "A multi-purpose bot",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Abady & Nour",
+  "license": "ISC"
+}
