@@ -1,2 +1,2 @@
 # alpha-bot-list
-l
+Alpha Bot List source code
